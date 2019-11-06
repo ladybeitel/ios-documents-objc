@@ -10,10 +10,5 @@
 
 @interface CDBDocsViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UILabel *numberOfWords;
-@property (weak, nonatomic) IBOutlet UITextField *titleOfDoc;
-@property (weak, nonatomic) IBOutlet UITextView *document;
-
-
 @end
 

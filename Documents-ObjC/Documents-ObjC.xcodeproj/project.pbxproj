@@ -69,6 +69,7 @@
 				77B27A7E2373643000A9B68F /* Model Controllers */,
 				77B27A7D2373642800A9B68F /* Models */,
 				77B27A7B2373640000A9B68F /* Resources */,
+				77B27A7023735CA700A9B68F /* Info.plist */,
 			);
 			path = "Documents-ObjC";
 			sourceTree = "<group>";
@@ -91,7 +92,6 @@
 				77B27A6323735CA600A9B68F /* SceneDelegate.m */,
 				77B27A7123735CA700A9B68F /* main.m */,
 				77B27A6B23735CA700A9B68F /* Assets.xcassets */,
-				77B27A7023735CA700A9B68F /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
