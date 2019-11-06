@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CDBDocument.h"
+#import "CDBDocumentController.h"
 
 @interface CDBDocsViewController : UIViewController
 
-@end
+@property (nonatomic) CDBDocument *document;
+@property (nonatomic) CDBDocumentController *documentController;
 
+@end

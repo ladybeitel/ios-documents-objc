@@ -39,7 +39,7 @@
     [self.internalDocuments removeObject:document];
 }
 
-// Public facing array (the one we made in the h file
+// Public facing array (the one we made in the h file)
 - (NSArray *)documents {
     return self.internalDocuments;
 }
