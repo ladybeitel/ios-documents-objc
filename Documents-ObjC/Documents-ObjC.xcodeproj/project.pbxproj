@@ -16,6 +16,7 @@
 		77B27A812373651500A9B68F /* CDBDocsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B27A802373651500A9B68F /* CDBDocsTableViewController.m */; };
 		77B27A842373692A00A9B68F /* CDBDocsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B27A832373692A00A9B68F /* CDBDocsViewController.m */; };
 		77B27A872373769E00A9B68F /* NSString+CDBWordCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B27A862373769E00A9B68F /* NSString+CDBWordCount.m */; };
+		77B27A8A23737B8900A9B68F /* CDBDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B27A8923737B8900A9B68F /* CDBDocument.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		77B27A832373692A00A9B68F /* CDBDocsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDBDocsViewController.m; sourceTree = "<group>"; };
 		77B27A852373769E00A9B68F /* NSString+CDBWordCount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+CDBWordCount.h"; sourceTree = "<group>"; };
 		77B27A862373769E00A9B68F /* NSString+CDBWordCount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+CDBWordCount.m"; sourceTree = "<group>"; };
+		77B27A8823737B8900A9B68F /* CDBDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDBDocument.h; sourceTree = "<group>"; };
+		77B27A8923737B8900A9B68F /* CDBDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDBDocument.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 		77B27A7D2373642800A9B68F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				77B27A8823737B8900A9B68F /* CDBDocument.h */,
+				77B27A8923737B8900A9B68F /* CDBDocument.m */,
 				77B27A852373769E00A9B68F /* NSString+CDBWordCount.h */,
 				77B27A862373769E00A9B68F /* NSString+CDBWordCount.m */,
 			);
@@ -201,6 +206,7 @@
 				77B27A872373769E00A9B68F /* NSString+CDBWordCount.m in Sources */,
 				77B27A6123735CA600A9B68F /* AppDelegate.m in Sources */,
 				77B27A842373692A00A9B68F /* CDBDocsViewController.m in Sources */,
+				77B27A8A23737B8900A9B68F /* CDBDocument.m in Sources */,
 				77B27A7223735CA700A9B68F /* main.m in Sources */,
 				77B27A6423735CA600A9B68F /* SceneDelegate.m in Sources */,
 			);
