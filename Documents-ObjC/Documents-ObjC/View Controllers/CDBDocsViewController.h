@@ -10,7 +10,7 @@
 #import "CDBDocument.h"
 #import "CDBDocumentController.h"
 
-@interface CDBDocsViewController : UIViewController
+@interface CDBDocsViewController : UIViewController <UITextViewDelegate>
 
 @property (nonatomic) CDBDocument *document;
 @property (nonatomic) CDBDocumentController *documentController;
