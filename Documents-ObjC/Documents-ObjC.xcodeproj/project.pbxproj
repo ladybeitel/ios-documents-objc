@@ -17,6 +17,7 @@
 		77B27A842373692A00A9B68F /* CDBDocsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B27A832373692A00A9B68F /* CDBDocsViewController.m */; };
 		77B27A872373769E00A9B68F /* NSString+CDBWordCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B27A862373769E00A9B68F /* NSString+CDBWordCount.m */; };
 		77B27A8A23737B8900A9B68F /* CDBDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B27A8923737B8900A9B68F /* CDBDocument.m */; };
+		77B27A8C23737F8100A9B68F /* CDBDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B27A8B23737F8100A9B68F /* CDBDocumentController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		77B27A862373769E00A9B68F /* NSString+CDBWordCount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+CDBWordCount.m"; sourceTree = "<group>"; };
 		77B27A8823737B8900A9B68F /* CDBDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDBDocument.h; sourceTree = "<group>"; };
 		77B27A8923737B8900A9B68F /* CDBDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDBDocument.m; sourceTree = "<group>"; };
+		77B27A8B23737F8100A9B68F /* CDBDocumentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDBDocumentController.m; sourceTree = "<group>"; };
+		77B27A8D23737F8A00A9B68F /* CDBDocumentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDBDocumentController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 		77B27A7E2373643000A9B68F /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				77B27A8D23737F8A00A9B68F /* CDBDocumentController.h */,
+				77B27A8B23737F8100A9B68F /* CDBDocumentController.m */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -208,6 +213,7 @@
 				77B27A842373692A00A9B68F /* CDBDocsViewController.m in Sources */,
 				77B27A8A23737B8900A9B68F /* CDBDocument.m in Sources */,
 				77B27A7223735CA700A9B68F /* main.m in Sources */,
+				77B27A8C23737F8100A9B68F /* CDBDocumentController.m in Sources */,
 				77B27A6423735CA600A9B68F /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
